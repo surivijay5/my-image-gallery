@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    width: 90vw;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main-container{
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
